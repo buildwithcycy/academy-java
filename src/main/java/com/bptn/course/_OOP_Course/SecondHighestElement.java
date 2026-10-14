@@ -12,7 +12,7 @@ public class SecondHighestElement {
 			System.out.println("Array i: " + array[i]); //printing the array variable
 
 			
-			if(array[i] >= highest) //checking if the current element in the array is greater than the highest variable
+			if(array[i] > highest) //checking if the current element in the array is greater than the highest variable
 			{
 				highest = array[i]; //updating the highest variable to the current element in the array
 				temp = highest; //updating the temp variable to the highest variable
